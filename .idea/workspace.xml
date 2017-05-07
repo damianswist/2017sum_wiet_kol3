@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cd362ca-5f21-47f2-a932-4b3dea5ad318" name="Default" comment="" />
+    <list default="true" id="3cd362ca-5f21-47f2-a932-4b3dea5ad318" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimulationTests.py" afterPath="$PROJECT_DIR$/SimulationTests.py" />
+    </list>
     <ignored path="kol3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Plane.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plane.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Simulation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -36,21 +49,11 @@
       <file leaf-file-name="SimulationTests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimulationTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
               <folding>
                 <element signature="e#12#27#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plane.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Plane.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -129,12 +131,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/pythonw.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360">
+  <component name="RunManager" selected="Python tests.Unittests in SimulationTests">
     <configuration default="false" name="Simulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,9 +386,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SimulationTest.test_wheter_correction_works" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in SimulationTests" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in SimulationTests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SimulationTest.test_wheter_correction_works" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SimulationTest.test_whether_turbulations_were_added_successfully" />
         <item index="4" class="java.lang.String" itemvalue="Python.Simulation" />
       </list>
@@ -393,6 +396,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -405,25 +411,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_SimulationTest_test_wheter_correction_works - 2017.04.10 at 15h 43m 20s.xml">
-      <configuration name="Unittest SimulationTest.test_wheter_correction_works" configurationId="tests" />
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 06m 13s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SimulationTest_test_whether_orientation_can_be_higher_then_360 - 2017.04.10 at 15h 48m 30s.xml">
-      <configuration name="Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360" configurationId="tests" />
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 07m 54s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SimulationTest_test_whether_orientation_can_be_higher_then_360 - 2017.04.10 at 15h 48m 40s.xml">
-      <configuration name="Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360" configurationId="tests" />
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 12m 03s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SimulationTest_test_whether_orientation_can_be_higher_then_360 - 2017.04.10 at 15h 49m 05s.xml">
-      <configuration name="Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360" configurationId="tests" />
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 23m 22s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SimulationTest_test_whether_orientation_can_be_higher_then_360 - 2017.04.10 at 15h 49m 16s.xml">
-      <configuration name="Unittest SimulationTest.test_whether_orientation_can_be_higher_then_360" configurationId="tests" />
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 24m 00s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SimulationTest_test_whether_turbulations_were_added_successfully - 2017.04.10 at 15h 41m 39s.xml">
-      <configuration name="Unittest SimulationTest.test_whether_turbulations_were_added_successfully" configurationId="tests" />
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 27m 57s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_SimulationTests - 2017.04.10 at 15h 42m 07s.xml">
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 30m 23s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 33m 19s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 36m 15s.xml">
+      <configuration name="Unittests in SimulationTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SimulationTests - 2017.05.07 at 23h 43m 16s.xml">
       <configuration name="Unittests in SimulationTests" configurationId="tests" />
     </history-entry>
   </component>
@@ -433,22 +448,30 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -458,6 +481,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimulationTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Plane.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -466,10 +509,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Plane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SimulationTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
           <folding>
             <element signature="e#12#27#0" expanded="true" />
           </folding>
@@ -478,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Simulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
